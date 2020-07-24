@@ -150,16 +150,16 @@ export(PACKAGE EnTT)
 
 include(CTest)
 
-if(BUILD_TESTING)
-    option(FIND_GTEST_PACKAGE "Enable finding gtest package." OFF)
-    option(BUILD_BENCHMARK "Build benchmark." OFF)
-    option(BUILD_EXAMPLE "Build examples." OFF)
-    option(BUILD_LIB "Build lib tests." OFF)
-    option(BUILD_SNAPSHOT "Build snapshot test with Cereal." OFF)
+# if(BUILD_TESTING)
+#     option(FIND_GTEST_PACKAGE "Enable finding gtest package." OFF)
+#     option(BUILD_BENCHMARK "Build benchmark." OFF)
+#     option(BUILD_EXAMPLE "Build examples." OFF)
+#     option(BUILD_LIB "Build lib tests." OFF)
+#     option(BUILD_SNAPSHOT "Build snapshot test with Cereal." OFF)
 
-    enable_testing()
-    add_subdirectory(test)
-endif()
+#     enable_testing()
+#     add_subdirectory(test)
+# endif()
 
 #
 # Documentation
